@@ -30,7 +30,7 @@ function setLedBright(ledNum) {
 	} else {
 		ledState12 = 1;
 	}
-	console.log(ledNum + ' LED: HIGH');
+	//console.log(ledNum + ' LED: HIGH');
 }
 
 function setLedDark(ledNum) {
@@ -39,7 +39,7 @@ function setLedDark(ledNum) {
 		ledState11 = 0;
 	else
 		ledState12 = 0;
-	//console.log(ledNum + ' LED: LOW');
+	console.log(ledNum + ' LED: LOW');
 }
 
 const server = http.createServer((req, res) => {
