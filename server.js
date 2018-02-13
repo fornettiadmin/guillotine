@@ -30,7 +30,7 @@ function setLedBright(ledNum) {
 	} else {
 		ledState12 = 1;
 	}
-//	console.log(ledNum + ' LED: HIGH');
+	console.log(ledNum + ' LED: HIGH');
 }
 
 function setLedDark(ledNum) {
