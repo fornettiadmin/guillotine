@@ -60,5 +60,5 @@ function buildHtml(req) {
   var body = '';
 
   return 'Pin 11 is currently set ' + (rpio.read(11) ? 'high' : 'low') +
-	 '\nPin 12 is currently set ' + (rpio.read(12) ? 'high' : 'low') + '\n1\n2\n3\n4\n5\n6\n7\n8';
+	 '\nPin 12 is currently set ' + (rpio.read(12) ? 'high' : 'low') + '\n1\n2\n3\n4\n5\n6\n7\n8\n9';
 }
