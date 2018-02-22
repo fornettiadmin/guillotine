@@ -52,7 +52,7 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
 	var blinkInterval = setInterval(function() {blinkLed(11)}, 1500);
-  	var blinkInterval = setInterval(function() {blinkLed(12)}, 100);
+  	//var blinkInterval = setInterval(function() {blinkLed(12)}, 100);
 });
 
 function buildHtml(req) {
